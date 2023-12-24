@@ -15,10 +15,10 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center  h-full text-white">
         <div>
-          <h1 className="text-4xl font-bold inline border-b-4 border-[#00FFCA]">
+          <h1 className="text-3xl font-bold inline border-b-4 border-[#00FFCA]">
             Experience
           </h1>
-          <p className="text-xl py-6">
+          <p className="text-sm py-6">
             Experienced professional with a proven track record of success
           </p>
         </div>
@@ -43,13 +43,13 @@ const Experience = () => {
                 {data.date}
               </h1>
               {/* Company */}
-              <h1 className="pt-14 font-bold text-3xl">{data.company}</h1>
+              <h1 className="pt-14 font-bold text-xl">{data.company}</h1>
               {/* Position */}
               <h2 className="text-xl font-bold text-[#00FFCA] py-1">
                 {data.position}
               </h2>
               {/* Description */}
-              <p className="text-lg mt-1 leading-8">{data.description}</p>
+              <p className="text-sm mt-1 leading-8">{data.description}</p>
             </div>
           ))}
         </div>
