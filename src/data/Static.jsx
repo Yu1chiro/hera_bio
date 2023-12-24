@@ -12,11 +12,9 @@ import kali from "../assets/langues/kali.png";　
 export const works = [
   {
     title: "Suara Mustika Website",
-    imgUrl:
-      "https://i.postimg.cc/VvkGd1sS/S1.png",
+    imgUrl:"https://i.postimg.cc/VvkGd1sS/S1.png",
     tech: ["Google Sites", "Boostrap 5"],
-    workUrl:
-      "https://www.suaramustika.my.id/",
+    workUrl:"https://www.suaramustika.my.id/",
     duration: "400",
   },
   {
