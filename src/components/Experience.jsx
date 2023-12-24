@@ -18,7 +18,7 @@ const Experience = () => {
           <h1 className="text-3xl font-bold inline border-b-4 border-[#00FFCA]">
             Experience
           </h1>
-          <p className="text-sm py-6">
+          <p className="text-lg py-6">
             Experienced professional with a proven track record of success
           </p>
         </div>
@@ -36,7 +36,7 @@ const Experience = () => {
             >
               {/* Date */}
               <h1
-                className={`absolute top-0 bg-white w-max p-2.5 text-[#3A1078] dark:text-[#21073C] shadow-2xl text-2xl ${
+                className={`absolute top-0 bg-white w-max p-2.5 text-[#3A1078] dark:text-[#21073C] shadow-2xl text-xl ${
                   index % 2 === 0 ? "left-0" : "md:right-0"
                 }`}
               >
@@ -49,7 +49,7 @@ const Experience = () => {
                 {data.position}
               </h2>
               {/* Description */}
-              <p className="text-sm mt-1 leading-8">{data.description}</p>
+              <p className="text-lg mt-1 leading-8">{data.description}</p>
             </div>
           ))}
         </div>
