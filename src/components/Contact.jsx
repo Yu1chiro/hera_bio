@@ -25,7 +25,7 @@ const Contact = () => {
     console.log('Form Data:', formData);
 
     // Construct the WhatsApp message link
-    const phoneNumber = '081236715460'; // Replace with your phone number
+    const phoneNumber = '6281236715460'; // Replace with your phone number
     const message = `Name: ${formData.name}%Email: ${formData.email}%Message: ${formData.message}`;
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 

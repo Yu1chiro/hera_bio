@@ -7,20 +7,26 @@ import bootstrap from "../assets/langues/bootstrap.png";
 import 日本語 from "../assets/langues/日本語.png";　
 import canva from "../assets/langues/canva.png";　
 import kali from "../assets/langues/kali.png";　
+import S1 from "../assets/S1.png";　
+import space from "../assets/p1.png";　
+import gonime from "../assets/gonime.png";　
+import luwih from "../assets/k1.png";　
+import wedding from "../assets/w1.png";　
+import encore from "../assets/enc1.png";　
+import harmoni from "../assets/asah1.png";　
 
 // Array of work objects
 export const works = [
   {
     title: "Suara Mustika Website",
-    imgUrl:"https://dribbble.com/shots/23311803-S1",
+    imgUrl: S1,
     tech: ["Google Sites", "Boostrap 5"],
     workUrl:"https://www.suaramustika.my.id/",
     duration: "400",
   },
   {
     title: "Space Explorer",
-    imgUrl:
-      "https://i.postimg.cc/gJkQ63Nk/sp2.png",
+    imgUrl: space,
     tech: ["Google Sites"],
     workUrl:
       "https://sites.google.com/view/testing-testwebs/home",
@@ -28,8 +34,7 @@ export const works = [
   },
   {
     title: "Gonime Id",
-    imgUrl:
-      "https://i.postimg.cc/k4JNJcww/Screenshot-2023-12-22-195854.png",
+    imgUrl: gonime,
     tech: ["Google Sites"],
     workUrl:
       "https://bit.ly/Gonimevol1-id",
@@ -37,8 +42,7 @@ export const works = [
   },
   {
     title: "Karang Luwih",
-    imgUrl:
-      "https://i.postimg.cc/pLDRxYmm/k1.png",
+    imgUrl: luwih,
     tech: ["Google Sites"],
     workUrl:
       "https://sites.google.com/view/karang-luwih/home",
@@ -46,8 +50,7 @@ export const works = [
   },
   {
     title: "Wedding Invitation",
-    imgUrl:
-      "https://i.postimg.cc/jSZKLqhT/w1.png",
+    imgUrl: wedding,
     tech: ["HTML", "CSS", "BOOSTRAP 5"],
     workUrl:
       "https://nasa-tsukasa.vercel.app/",
@@ -55,8 +58,7 @@ export const works = [
   },
   {
     title: "Encore Alastair",
-    imgUrl:
-      "https://i.postimg.cc/2j05KfJV/enc1.png",
+    imgUrl: encore,
     tech: ["HTML", "CSS", "BOOSTRAP 5"],
     workUrl:
       "https://www.encorealastair.site/",
@@ -64,8 +66,7 @@ export const works = [
   },
   {
     title: "Taman Harmoni Bali",
-    imgUrl:
-      "https://i.postimg.cc/qR81vLP5/asah1.png",
+    imgUrl: harmoni,
     tech: ["HTML", "CSS", "BOOSTRAP 5"],
     workUrl:
       "https://taman-harmoni-bali.vercel.app/",
