@@ -36,7 +36,7 @@ const Experience = () => {
             >
               {/* Date */}
               <h1
-                className={`absolute top-0 bg-white w-max p-2.5 text-[#3A1078] dark:text-[#21073C] shadow-2xl text-xl ${
+                className={`absolute top-0 bg-white w-max p-2.5 text-[#000] shadow-2xl text-xl ${
                   index % 2 === 0 ? "left-0" : "md:right-0"
                 }`}
               >

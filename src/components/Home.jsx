@@ -1,13 +1,9 @@
-import React from 'react';
-import { HiArrowNarrowRight } from 'react-icons/hi';
-import Typewriter from 'typewriter-effect';
+import React from 'react'
+import { HiArrowNarrowRight } from 'react-icons/hi'
+import Typewriter from "typewriter-effect";
+
 
 const Home = () => {
-  const handleButtonClick = () => {
-    // Change the URL to the path where your Work.jsx component is located
-    window.location.href = '../components/Work.jsx'; // Replace '/path-to-work' with the actual path
-  };
-
   return (
     <div name="home" className="w-full h-screen bg-gradient-to-l from-[#020617] to-[#0a37a1]">
       {/* Container */}
@@ -32,24 +28,20 @@ const Home = () => {
                   .deleteAll()
                   .typeString("Japanese Education Student")
                   .start();
+                  
               }}
+              
             />
           </h2>
         </div>
         <p className="text-white text-lg py-4 leading-8">
-          I'm a junior web developer and Japanese language education student, let's be friends.🖐️
+        I'm junior web developer and Japanese language education student, let's be friends.🖐️
         </p>
         <div>
-          <button
-            onClick={handleButtonClick}
-            className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00FFCA] hover:border-[#00FFCA] rounded-sm hover:text-[#3A1078] font-semibold"
-          >
-            My Project 
             <span className="group-hover:translate-x-1 duration-300">
               {" "}
               <HiArrowNarrowRight className="ml-4" />
             </span>
-          </button>
         </div>
       </div>
     </div>

@@ -52,7 +52,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className={!showShadowNav ? 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-l from-[#020617] to-[#0a37a1] text-white z-20':'fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-l from-[#020617] to-[#0a37a1] text-white z-20 shadow-2xl'}>
+    <div className={!showShadowNav ? 'fixed w-full h-[80px] flex justify-between items-center px-4 mt-6 bg-gradient-to-l from-[#020617] to-[#0a37a1] text-white z-20':'fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-l from-[#020617] to-[#0a37a1] text-white z-20 shadow-2xl'}>
   <div className="flex items-center">
     <img src={Logo} alt="logo" style={{ width: "60px"}} />
     <h2 className="text-white text-base ml-2 font-bold">Yuichiro</h2>
@@ -74,7 +74,7 @@ const Navbar = () => {
           <Link to='experience' smooth={true} duration={500}>Experience</Link>
         </li>
         <li className="hover:text-[#00FFCA] font-bold hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
-          <Link to='work' smooth={true} duration={500}>Work</Link>
+          <Link to='work' smooth={true} duration={500}>Project</Link>
         </li>
         <li className="hover:text-[#00FFCA] font-bold hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
           <Link to='contact' smooth={true} duration={500}>Contact</Link>
@@ -100,22 +100,28 @@ const Navbar = () => {
           className='w-full  flex flex-col justify-center items-center'
         >
           {/* Added comments for each mobile menu item */}
-          <li className="py-6 text-lg font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
+          <li className="mb-5 text-lg font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
             <Link onClick={handleClick} to='home' smooth={true} duration={500}>Home</Link>
           </li>
-          <li className="py-6 text-lg font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
+          <li className="mb-5 text-lg font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
             <Link onClick={handleClick} to='about' smooth={true} duration={500}>About</Link>
           </li>
-          <li className="py-6 text-lg  font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
+          <li className="mb-5 text-lg  font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
             <Link onClick={handleClick} to='skill' smooth={true} duration={500}>Skills</Link>
           </li>
-          <li className="py-6 text-lg  font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
+          <li className="mb-5 text-lg  font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
             <Link onClick={handleClick} to='experience' smooth={true} duration={500}>Experience</Link>
           </li>
-          <li className="py-6 text-lg  font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
-            <Link onClick={handleClick} to='work' smooth={true} duration={500}>Work</Link>
+          <li className="mb-5 text-lg  font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
+            <Link onClick={handleClick} to='work' smooth={true} duration={500}>Project</Link>
           </li>
-          <li className="py-6 text-lg  font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
+          <li className="mb-5 text-lg  font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
+            <a href="https://www.google.com/nonexistentpage">Linkedin</a>
+          </li>
+          <li className="mb-5 text-lg  font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
+          <a href="https://github.com/Yu1chiro">Github</a>
+          </li>
+          <li className="mb-5 text-lg  font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
             <Link onClick={handleClick} to='contact' smooth={true} duration={500}>Contact</Link>
           </li>
         </ul>
