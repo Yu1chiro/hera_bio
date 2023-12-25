@@ -36,9 +36,10 @@ const About = () => {
           {/* Profile picture */}
           <div className="flex justify-center items-center" data-aos="fade-right" data-aos-duration="800" data-aos-easing="linear">
             <img
+            // clue outline-offset-8 outline-dashed outline-2
               src={pic}
               alt=""
-              className="rounded-full shadow-2xl outline-offset-8 outline-dashed outline-2"
+              className="rounded-full shadow-2xl"
               style={{ width: "15rem", height: "20rem" }}
             />
           </div>
