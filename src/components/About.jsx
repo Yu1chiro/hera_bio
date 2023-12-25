@@ -20,7 +20,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-l from-[#020617] to-[#0a37a1] text-gray-300 dark:bg-[#21073C]"
+      className="w-full h-screen bg-gradient-to-l from-[#020617] to-[#0a37a1] text-white dark:bg-[#21073C]"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
@@ -49,7 +49,7 @@ const About = () => {
               Hello, i'm as junior developer 
             </p>
             {/* Description */}
-            <p className="text-sm leading-7 text-white">
+            <p className="text-lg leading-7 text-white">
             a junior web developer and canva designer has basic to intermediate level Japanese communication skills, 
             passionate about improving self-esteem for the better with several project contributions.
             </p>

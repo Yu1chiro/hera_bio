@@ -21,16 +21,16 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // TODO: Add logic to send formData to your desired endpoint or perform any other action.
     console.log('Form Data:', formData);
 
-    // Construct the WhatsApp message link
-    const phoneNumber = '6281236715460'; // Replace with your phone number
-    const message = `Name: ${formData.name}%Email: ${formData.email}%Message: ${formData.message}`;
-    const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    // Construct the mailto link
+    const emailAddress = 'ryuukiharukaze25@gmail.com'; // Replace with your email address
+    const subject = encodeURIComponent(`Contact Form Submission - ${formData.name}`);
+    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`);
+    const mailtoLink = `mailto:${emailAddress}?subject=${subject}&body=${body}`;
 
-    // Open the WhatsApp link in a new tab or window
-    window.open(whatsappLink, '_blank');
+    // Open the mailto link in the same window
+    window.location.href = mailtoLink;
   };
 
   return (
@@ -44,9 +44,9 @@ const Contact = () => {
           <span className="border-b-4 border-[#00FFCA] inline-block">Contact</span>
         </p>
         {/* Description */}
-        <p className="mb-6">
-          Submit the form below or send me an email -{' '}
-          <span className="font-bold">ryuukiharukaze25@gmail.com</span>
+        <p className="mb-6 text-lg">
+          Let's Contact me to Email 🖐️ {''}
+          <span className="font-bold text-lg">ryuukiharukaze25@gmail.com</span>
         </p>
 
         {/* Form */}
@@ -89,7 +89,7 @@ const Contact = () => {
           <div className="mt-4">
             <button
               type="submit"
-              className="text-white group border-2 px-6 py-3 flex items-center hover:bg-[#00FFCA] hover:border-[#00FFCA] rounded-sm hover:text-[#3A1078] font-semibold"
+              className="text-white group border-2 px-6 py-3 flex items-center hover:bg-[#00FFCA] hover:border-white rounded-sm hover:text-white font-semibold"
             >
               Send Message
               <span className="group-hover:translate-x-1 duration-300">
@@ -98,12 +98,10 @@ const Contact = () => {
             </button>
           </div>
         </form>
+        <p className="mt-20 justify-between items-center">Copyright Yuichiro all rights reserved © 2023</p>
       </div>
     </div>
   );
 };
-<div className="mt-10 mb-3">
-          <p>Copyright all rights reserved © 2023</p>
-        </div>
 
 export default Contact;

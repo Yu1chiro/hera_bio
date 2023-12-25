@@ -7,7 +7,7 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-gradient-to-l from-[#020617] to-[#0a37a1]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-gray-50 text-lg">Hello my name is</p>
+        <p className="text-white text-lg">Hello my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#00FFCA]">
           Hera
         </h1>
@@ -31,7 +31,7 @@ const Home = () => {
             />
           </h2>
         </div>
-        <p className="text-white py-4 leading-8">
+        <p className="text-white text-lg py-4 leading-8">
         I'm junior web developer and Japanese language education student, let's be friends.🖐️
         </p>
         <div>

@@ -13,7 +13,7 @@ const Work = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center  h-full text-white">
         <div>
           <h1 className="text-4xl font-bold inline border-b-4 border-[#00FFCA]">Recent Works</h1>
-          <p className="text-xl py-6">During my experience as a self-taught developer, I have created many projects and shared them on LinkedIn and GitHub. I am always on the lookout for new and challenging projects to work on.</p>
+          <p className="text-lg py-6">During my experience as a self-taught developer, I have created many projects and shared them on LinkedIn and GitHub. I am always on the lookout for new and challenging projects to work on.</p>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 mt-7">
           {/* Map over the works array and render each work */}
