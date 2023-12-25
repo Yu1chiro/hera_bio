@@ -102,5 +102,8 @@ const Contact = () => {
     </div>
   );
 };
+<div className="mt-10 mb-3">
+          <p>Copyright all rights reserved © 2023</p>
+        </div>
 
 export default Contact;
