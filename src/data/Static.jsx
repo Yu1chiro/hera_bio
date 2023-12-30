@@ -14,6 +14,7 @@ import luwih from "../assets/k1.png";　
 import wedding from "../assets/w1.png";　
 import encore from "../assets/enc1.png";　
 import harmoni from "../assets/asah1.png";　
+import newyears from "../assets/langues/hny.png"
 
 // Array of work objects
 export const works = [
@@ -72,12 +73,27 @@ export const works = [
       "https://taman-harmoni-bali.vercel.app/",
     duration: "400",
   },
+  {
+    title: "Happy New Years",
+    imgUrl: newyears,
+    tech: ["React JS"],
+    workUrl:
+      "https://happy-ny.vercel.app/",
+    duration: "400",
+  },
 
  
 ];
 
 // Array of experience objects
 export const experiences = [
+  {
+    date: "3 Maret 2023",
+    company: "Suara Mustika",
+    position: "Front End Developer",
+    description:
+      "successfully designed and published the Sanggar Seni Suara Mustika website",
+  },
   {
     date: "3 September 2023",
     company: "Iwate University & Ganesha University of Education Cultural Exchange Collaboration",
@@ -89,7 +105,7 @@ export const experiences = [
     company: "Encore Alastair",
     position: "Front End Developer",
     description:
-      "successfully designed and published the encore alastair community website",
+      "successfully designed and published the Encore Alastair Community website",
   },
   {
     date: "10 Oktober 2023",
