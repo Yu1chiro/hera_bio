@@ -98,11 +98,17 @@ export const experiences = [
     date: "3 September 2023",
     company: "Iwate University & Ganesha University of Education Cultural Exchange Collaboration",
     description:
-      "participated in the cultural exchange workshop at Iwate and Undiksha universities",
+      "Become a speaker and participate in cultural exchange workshop activities between Iwate University, Japan and Ganesha University of Education",
+  },
+  {
+    date: "10 September 2023",
+    company: "Iwate University & Ganesha University of Education Cultural Exchange Collaboration",
+    description:
+      "Participate in becoming a tour guide partner for Iwate University students in Japan",
   },
   {
     date: "15 Desember 2023",
-    company: "Encore Alastair",
+    company: "Encore Alastair Comunity",
     position: "Front End Developer",
     description:
       "successfully designed and published the Encore Alastair Community website",
