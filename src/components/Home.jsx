@@ -23,7 +23,7 @@ const Home = () => {
                   .typeString("Canva designer")
                   .pauseFor(1000)
                   .deleteAll()
-                  .typeString("Junior Web Developer")
+                  .typeString("Junior Front End Developer")
                   .pauseFor(1000)
                   .deleteAll()
                   .typeString("Japanese Education Student")
