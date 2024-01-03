@@ -1,5 +1,4 @@
 import React from 'react'
-import { HiArrowNarrowRight } from 'react-icons/hi'
 import Typewriter from "typewriter-effect";
 
 
@@ -40,7 +39,6 @@ const Home = () => {
         <div>
             <span className="group-hover:translate-x-1 duration-300">
               {" "}
-              <HiArrowNarrowRight className="ml-4" />
             </span>
         </div>
       </div>

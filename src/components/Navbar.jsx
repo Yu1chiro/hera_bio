@@ -119,7 +119,7 @@ const Navbar = () => {
             <a href="https://www.google.com/nonexistentpage">Linkedin</a>
           </li>
           <li className="mb-5 text-lg  font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
-          <a href="https://github.com/Yu1chiro">Github</a>
+          <a href="https://google.com/githbbdd">Github</a>
           </li>
           <li className="mb-5 text-lg  font-bold hover:text-[#00FFCA] hover:translate-y-1 hover:duration-200 active:text-[#00FFCA]">
             <Link onClick={handleClick} to='contact' smooth={true} duration={500}>Contact</Link>
@@ -152,7 +152,7 @@ const Navbar = () => {
 
           <li className="w-[160px] h-[60px] mb-2 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-200 rounded-e-2xl font-semibold">
             <a
-              href="https://github.com/Yu1chiro"
+              href="https://google.com/githbd"
               className="flex justify-between items-center w-full text-[#0a37a1]"
             >
               Github <FaGithub size={30} />
