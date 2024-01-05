@@ -53,7 +53,7 @@ export const works = [
   {
     title: "Wedding Invitation",
     imgUrl: wedding,
-    tech: ["HTML", "CSS", "BOOSTRAP 5"],
+    tech: ["HTML", "CSS", "BOOTSTRAP 5"],
     workUrl:
       "https://nasa-tsukasa.vercel.app/",
     duration: "400",
@@ -61,7 +61,7 @@ export const works = [
   {
     title: "Encore Alastair",
     imgUrl: encore,
-    tech: ["HTML", "CSS", "BOOSTRAP 5"],
+    tech: ["HTML", "CSS", "BOOTSTRAP 5"],
     workUrl:
       "https://www.encorealastair.site/",
     duration: "400",
@@ -69,7 +69,7 @@ export const works = [
   {
     title: "Taman Harmoni Bali",
     imgUrl: harmoni,
-    tech: ["HTML", "CSS", "BOOSTRAP 5"],
+    tech: ["HTML", "CSS", "BOOTSTRAP 5"],
     workUrl:
       "https://taman-harmoni-bali.vercel.app/",
     duration: "400",
@@ -85,7 +85,7 @@ export const works = [
   {
     title: "Yuichiro Costume",
     imgUrl: rent,
-    tech: ["React JS"],
+    tech: ["HTML", "CSS", "BOOTSTRAP 5"],
     workUrl:
       "https://rent-cost.vercel.app/",
     duration: "400",
