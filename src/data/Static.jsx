@@ -15,6 +15,7 @@ import wedding from "../assets/w1.png";　
 import encore from "../assets/enc1.png";　
 import harmoni from "../assets/asah1.png";　
 import newyears from "../assets/langues/hny.png"
+import rent from "../assets/rent.png";
 
 // Array of work objects
 export const works = [
@@ -79,6 +80,14 @@ export const works = [
     tech: ["React JS"],
     workUrl:
       "https://happy-ny.vercel.app/",
+    duration: "400",
+  },
+  {
+    title: "Yuichiro Costume",
+    imgUrl: rent,
+    tech: ["React JS"],
+    workUrl:
+      "https://rent-cost.vercel.app/",
     duration: "400",
   },
 
